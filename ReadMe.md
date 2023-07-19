@@ -6,3 +6,5 @@
 
 - 若显示同步成功，恭喜你；
 - 若显示同步失败，运行“同步.bat”；
+
+建议搭配 [FastGithub](https://github.com/dotnetcore/FastGithub)。
