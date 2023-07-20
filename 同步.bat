@@ -1,4 +1,5 @@
 @echo off
+if not exist .\config\setting.json echo ’“≤ªµΩ .\config\setting.json&echo.&echo.&echo.&pause&exit
 for /f "tokens=1,2 delims=:{}, " %%A in (.\config\setting.json) do (
     If "%%~A"=="branch" set branch=%%~B
 )
